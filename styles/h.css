@@ -1,0 +1,2014 @@
+/* font family  */
+@font-face {
+    font-family: 'Satoshi-Light';
+    src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+        url('../fonts/Satoshi-Light.woff') format('woff'),
+        url('../fonts/Satoshi-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-LightItalic';
+    src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
+        url('../fonts/Satoshi-LightItalic.woff') format('woff'),
+        url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+        url('../fonts/Satoshi-Regular.woff') format('woff'),
+        url('../fonts/Satoshi-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-Italic';
+    src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
+        url('../fonts/Satoshi-Italic.woff') format('woff'),
+        url('../fonts/Satoshi-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+        url('../fonts/Satoshi-Medium.woff') format('woff'),
+        url('../fonts/Satoshi-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-MediumItalic';
+    src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
+        url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+        url('../fonts/Satoshi-Bold.woff') format('woff'),
+        url('../fonts/Satoshi-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-BoldItalic';
+    src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Satoshi-BoldItalic.woff') format('woff'),
+        url('../fonts/Satoshi-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
+        url('../fonts/Satoshi-Black.woff') format('woff'),
+        url('../fonts/Satoshi-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Satoshi-BlackItalic';
+    src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Satoshi-BlackItalic.woff') format('woff'),
+        url('../fonts/Satoshi-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-display: swap;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFBoldItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Demi';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFDemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Demi';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFDemiBoldRegular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFMediumItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF Extra';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    src: url('../fonts/FONTSPRINGDEMO-IntegralCFHeavyItalic.woff2') format('woff2'),
+        url('../fonts/FONTSPRINGDEMO-IntegralCFHeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* End of font  */
+
+/* this is the styles of desktop  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header .part1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 1440px;
+}
+
+header .part1 .mobile {
+    display: none;
+}
+
+header .part1 .desktop {
+    color: #FFF;
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .part1 .desktop a {
+    color: #FFF;
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+header .part2 .icon_mobile {
+    display: none;
+}
+
+header .part2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+header .part2 #close {
+    display: none;
+}
+
+header .part2 #open {
+    display: none;
+}
+
+header .part2 .name {
+    color: #000;
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header .part2 .look_up {
+    position: relative;
+}
+
+header .part2 .look_up .find {
+    color: black;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #F0F0F0;
+    border-radius: 62px;
+    padding: 14px 50px;
+    width: 400px;
+    border: none;
+}
+
+header .part2 .look_up i {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+}
+
+header .part2 .icon_desktop {
+    display: flex;
+    font-size: 25px;
+}
+
+header .part2 .icon_desktop i {
+    padding: 0px 12px;
+}
+
+header .part2 .menu_mobile {
+    display: none;
+}
+
+header .part2 .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+header .part2 .menu li {
+    list-style: none;
+}
+
+header .part2 .menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+header .part2 .navigation_bar {
+    display: none;
+}
+
+header .line {
+    margin-top: 30px;
+    width: 1440px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+header .part3 {
+    padding-top: 20px;
+    padding-left: 70px;
+    color: #000;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#thank_you_shopping {
+    color: #000;
+    font-family: 'Satoshi-Bold';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+main .part1 h1 {
+    color: #000;
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 60px;
+}
+
+main .part2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+main .part2 .product {
+    background-color: #fff;
+    width: 715px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    margin: 10px 80px;
+}
+
+main .part2 .product ul {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+main .part2 .product ul li {
+    padding: 20px 0px;
+    display: flex;
+    position: relative;
+}
+
+main .part2 .product ul li .product_infor p {
+    padding: 5px 0px;
+}
+
+main .part2 .product ul li .trash {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    font-size: 20px;
+    color: red;
+}
+
+main .part2 .product ul li .amount {
+    position: absolute;
+    border-radius: 62px;
+    background-color: #F0F0F0;
+    top: 110px;
+    right: 5px;
+    padding: 10px 30px;
+}
+
+main .part2 .product ul li .amount span {
+    padding: 0 15px;
+}
+
+main .part2 .product ul li .product_infor {
+    padding-left: 20px;
+}
+
+main .part2 .product ul li .product_infor .name_of_product {
+    color: #000;
+    font-family: 'Satoshi-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .part2 .product ul li .product_infor .size {
+    color: #000;
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .part2 .product ul li .product_infor .color {
+    color: #000;
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .part2 .product ul li .product_infor .color span {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .part2 .product ul li .product_infor .size span {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .part2 .product ul li .product_infor .price_of_product {
+    color: #000;
+    font-family: 'Satoshi-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .part2 .product ul .line {
+    width: 670px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+main .part2 .product ul li .img_mobile {
+    display: none;
+}
+
+main .part2 .checkout_information {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    width: 505px;
+    padding: 20px 24px;
+    height: 435px;
+
+}
+
+main .part2 .checkout_information .heading {
+    color: #000;
+    font-family: 'Satoshi-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+main .part2 .checkout_information .price_information {
+    display: flex;
+    gap: 250px;
+
+}
+
+main .part2 .checkout_information .price_information p {
+    padding-bottom: 20px;
+}
+
+main .part2 .checkout_information .price_information .description {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .part2 .checkout_information .price_information .description p {
+    width: 160px;
+}
+
+main .part2 .checkout_information .price_information .price {
+    color: #000;
+    text-align: right;
+    font-family: 'Satoshi-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+main .part2 .checkout_information .line {
+    width: 457px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
+}
+
+main .part2 .checkout_information .total_price .total {
+    padding-bottom: 25px;
+    display: flex;
+    gap: 300px;
+}
+
+main .part2 .checkout_information .total_price .total .total_heading {
+    color: #000;
+    font-family: 'Satoshi-Regular';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 160px;
+}
+
+main .part2 .checkout_information .total_price .total .price_total {
+    color: #000;
+    text-align: right;
+    font-family: 'Satoshi-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .part2 .checkout_information .total_price .checkout_btn {
+    text-align: center;
+    position: relative;
+}
+
+main .part2 .checkout_information .total_price .checkout_btn i {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 20px;
+}
+
+main .part2 .checkout_information .total_price .checkout_btn .code {
+    border-radius: 62px;
+    padding: 12px 16px;
+    padding-left: 50px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    color: black;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 290px;
+    margin-right: 20px;
+
+
+}
+
+main .part2 .checkout_information .total_price .checkout_btn .gotocheckout {
+    border-radius: 62px;
+    padding: 16px 54px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 450px;
+    cursor: pointer;
+
+}
+
+main .part2 .checkout_information .total_price .checkout_btn button {
+    border-radius: 62px;
+    background-color: black;
+    padding: 12px 16px;
+    width: 119px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+
+
+}
+
+footer {
+    position: relative;
+}
+
+footer .part1 {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1240px;
+    padding: 60px 64px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: absolute;
+    top: -210px;
+    left: 77px;
+}
+
+footer .part1 .title {
+    color: #FFF;
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+footer .part1 .title h2 {
+    width: 650px;
+}
+
+footer .part1 .subscribe {
+    padding-left: 100px;
+}
+
+footer .part1 .subscribe .email_address {
+    position: relative;
+}
+
+footer .part1 .subscribe .email_address i {
+    position: relative;
+    top: 34px;
+    left: 6px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+footer .part1 .subscribe .email {
+    border-radius: 62px;
+    background-color: #fff;
+    padding: 12px 30px;
+    color: black;
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    width: 349px;
+}
+
+footer .part1 .subscribe .button {
+    position: relative;
+}
+
+footer .part1 .subscribe .button i {
+    position: absolute;
+    top: 48px;
+    left: 30px;
+    color: black;
+    z-index: 1;
+}
+
+footer .part1 .subscribe .subscribe_button {
+    margin-top: 30px;
+    border-radius: 62px;
+    background-color: #fff;
+    padding: 12px 16px;
+    width: 349px;
+    text-align: center;
+    color: #000;
+    font-family: 'Satoshi-Bold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+footer .part1 .subscribe .subscribe_button:hover {
+    scale: 1.1;
+    background-color: #ffffffb6;
+}
+
+footer .part1 .subscribe .subscribe_button:active {
+    scale: 1.0;
+    background-color: #ffffff;
+}
+
+footer .part1 .subscribe p {
+    color: white;
+    font-family: 'Satoshi-Regular';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .part2 .information_contact {
+    width: 1440px;
+    height: 500px;
+    background-color: #F0F0F0;
+    margin-top: 200px;
+    padding-top: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .part2 .information {
+    width: 250px;
+    padding-left: 30px;
+}
+
+footer .part2 .information .name_of_shop h2 {
+    color: #000;
+    font-family: 'FONTSPRING DEMO - Integral CF';
+    font-size: 33.455px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .part2 .information .name_of_shop p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Satoshi-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 20px 0px;
+}
+
+footer .part2 .information .name_of_shop i {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+footer .part2 .contact {
+    display: flex;
+}
+
+footer .part2 .contact .contact_infor {
+    padding: 0px 80px;
+}
+
+footer .part2 .contact .contact_infor p {
+    color: #000;
+    font-family: 'Satoshi-Bold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+footer .part2 .contact .contact_infor ul {
+    list-style: none;
+}
+
+footer .part2 .contact .contact_infor ul li {
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Satoshi-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+footer .part2 .line {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 1240px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+    
+}
+
+footer .part2 .copyright {
+    background-color: #F0F0F0;
+    height: 150px;
+    text-align: center;
+}
+
+footer .part2 .copyright p {
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: 'Satoshi-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .part2 .payment_method_desktop {
+    display: inline;
+}
+
+footer .part2 .payment_method_mobile {
+    display: none;
+}
+
+/* End style of desktop  */
+
+
+/* Mobile Style  */
+
+@media only screen and (max-width: 48em) {
+    body {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    header .part1 {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        margin-bottom: 20px;
+        width: 360px;
+    }
+
+    header .part1 .desktop {
+        display: none;
+    }
+
+    header .part1 .mobile {
+        display: block;
+    }
+
+    header .part1 .mobile {
+        color: #FFF;
+        font-family: 'Satoshi-Regular';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    header .part1 .mobile a {
+        color: #FFF;
+        font-family: 'Satoshi-Medium';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+
+    header .part2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        position: relative;
+
+    }
+
+    header .part2 .name {
+        color: #000;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 15.2px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    /* CHNH SUA O DAY  */
+    header .part2 .toggle_menu #open {
+        display: block;
+        cursor: pointer;
+    }
+
+    header .part2 .toggle_menu .menu_mobile {
+        position: absolute;
+        display: block;
+        background-color: white;
+        backdrop-filter: blur(0.8);
+        width: 215px;
+        height: 0px;
+        top: 45px;
+        left: 0;
+        overflow: hidden;
+        transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    header .part2 .toggle_menu .menu_mobile.open {
+        height: 250px;
+    }
+
+    header .part2 .toggle_menu .menu_mobile ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 45px
+    }
+
+    header .part2 .toggle_menu .menu_mobile ul li {
+        padding: 6px 0 0 0;
+    }
+
+    header .part2 .toggle_menu .menu_mobile ul li a {
+        text-decoration: none;
+        color: #000;
+        font-family: 'Satoshi-Regular';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    /* TOI DAY  */
+    header .part2 .icon_mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .part2 .icon_mobile i {
+        color: black;
+    }
+
+    header .part2 .icon_mobile #look_up_mobile {
+        cursor: pointer;
+    }
+
+    header .part2 .icon_mobile div {
+        padding: 10px;
+    }
+
+    header .part2 .navigation {
+        display: none;
+    }
+
+    header .part2 .navigation_bar {
+        display: none;
+    }
+
+    header .part2 .look_up {
+        display: none;
+    }
+
+    header .part2 .icon_desktop {
+        display: none;
+    }
+
+    header .part2_when_lookup {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    header .part2_when_lookup i {
+        position: absolute;
+        top: 21px;
+        left: 18px;
+    }
+
+    header .part2_when_lookup #close_lookup {
+        position: absolute;
+        top: 21px;
+        left: 322px;
+        cursor: pointer;
+    }
+
+    header .part2_when_lookup input {
+        color: black;
+        font-family: 'Satoshi-Regular';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #F0F0F0;
+        border-radius: 62px;
+        padding: 14px 50px;
+        width: 350px;
+        border: none;
+    }
+
+    header .line {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    header .part3 {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    /* header .part3 {
+        margin: 0 auto;
+        display: block;
+        width: 360px;
+        height: 505px;
+        background-color: #F2F0F1;
+    }
+
+    header .part3 h1 {
+        padding: 30px 0;
+        margin-left: 16px;
+        width: 285px;
+        color: #000;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+
+    }
+
+    header .part3 .introduction_mobile {
+        margin-left: 16px;
+        width: 328px;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: 'Satoshi-Regular';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
+    }
+
+    header .part3 .button_mobile {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        padding: 16px 0px;
+        border-radius: 62px;
+        width: 200px;
+        display: block;
+        margin: 30px auto;
+        text-align: center;
+        color: #FFF;
+        font-family: 'Satoshi-Medium';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        transition: 0.3s ease;
+    }
+
+    header .part3 .button_mobile:hover {
+        scale: 1.05;
+    }
+
+    header .part3 .button_mobile:active {
+        scale: 0.95;
+    }
+
+    header .part3 .achievement_mobile {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header .part3 .achievement_mobile li {
+        list-style: none;
+        padding: 20px 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    header .part3 .achievement_mobile li .number_of_achievement_mobile {
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    header .part3 .achievement_mobile li .description_of_achievement_mobile {
+        color: rgba(0, 0, 0, 0.60);
+        font-family: 'Satoshi-Regular';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+
+    } */
+
+    /* header .part4 {
+        background-image: url('/images/part3_image_mobile.png');
+        background-repeat: no-repeat;
+        width: 360px;
+        height: 448px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    header .part4 .mobile {
+        display: inline;
+    }
+
+    header .part4 .desktop {
+        display: none;
+    }
+
+    header .part4 .star1_mobile {
+        position: absolute;
+        top: 35px;
+        left: 269px;
+
+    }
+
+    header .part4 .star2_mobile {
+        position: absolute;
+        top: 132px;
+        left: 23px;
+
+    }
+
+    header .part5 .name_of_brand {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: white;
+        font-size: 20px;
+    }
+
+    header .part5 .name_of_brand li {
+        list-style: none;
+        width: 33.3%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    header .part5 .name_of_brand li:nth-child(4),
+    header .part5 .name_of_brand li:nth-child(5) {
+        width: 50%;
+    }
+
+    header .part5 {
+        background-color: black;
+        width: 360px;
+        margin: 0 auto;
+
+    } */
+
+    /* main .part1 .title {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10px;
+        color: #000;
+        text-align: center;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part1 .product .list_of_product {
+        list-style: none;
+        display: block;
+        text-align: center;
+    }
+
+    main .part1 .product .list_of_product li {
+        padding: 20px 10px;
+    }
+
+    main .part1 .product .list_of_product li:nth-child(3) {
+        display: none;
+    }
+
+    main .part1 .product .list_of_product li:nth-child(4) {
+        display: none;
+    }
+
+    main .part1 .product .list_of_product li:nth-child(5) {
+        display: none;
+    }
+
+    main .part1 .product .list_of_product .product_image_desktop {
+        display: none;
+    }
+
+    main .part1 .product .list_of_product .product_image_mobile {
+        display: block;
+        width: 198px;
+        position: relative;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    main .part1 .product .list_of_product .product_image_mobile img {
+        display: block;
+        border-radius: 10px;
+    }
+
+    main .part1 .product .list_of_product .product_image_mobile:hover img {
+        filter: opacity(0.8);
+    }
+
+    main .part1 .product .list_of_product .product_image_mobile:hover .buy_now {
+        bottom: 0;
+    }
+
+    main .part1 .product .list_of_product .product_image_mobile .buy_now {
+        background-color: rgba(144, 4, 4, 0.887);
+        text-align: center;
+        padding: 10px 0px;
+        position: absolute;
+        width: 100%;
+        bottom: -40px;
+        transition: 0.3s ease-in-out;
+    }
+
+    main .part1 .product .list_of_product .product_image_mobile .buy_now a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    main .part1 .product .list_of_product li .product_infor {
+        padding: 10px 0px;
+    }
+
+    main .part1 .product .list_of_product li .product_infor .product_name {
+        padding-bottom: 10px;
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part1 .product .list_of_product li .product_infor .product_price {
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part1 .product .list_of_product li .product_infor .product_price .first_price {
+        text-decoration: line-through;
+        color: rgba(0, 0, 0, 0.40);
+        font-family: 'Satoshi-Bold';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 5px;
+    }
+
+    main .part1 .product .list_of_product li .product_infor .product_price .discount {
+        border-radius: 62px;
+        background-color: rgba(255, 51, 51, 0.10);
+        padding: 6px 14px;
+        color: #F33;
+        font-family: 'Satoshi-Medium';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+    main .part1 .product .list_of_product li .product_infor_desktop {
+        display: none;
+    }
+
+    main .part1 .product .list_of_product li .product_infor .rate {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    main .part1 .product .list_of_product li .product_infor .rate .number_rate {
+        color: #000;
+        font-family: 'Satoshi-Regular';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    main .part1 .product .view_all {
+        border-radius: 62px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        text-align: center;
+        padding: 16px 54px;
+        margin: 0px auto;
+        width: 300px;
+    }
+
+    main .part1 .product .view_all a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Satoshi-Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    main .line {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 340px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.10);
+    }
+
+    main .part2 .title {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10px;
+        color: #000;
+        text-align: center;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part2 .product .list_of_product {
+        list-style: none;
+        display: block;
+        text-align: center;
+    }
+
+    main .part2 .product .list_of_product li:nth-child(3) {
+        display: none;
+    }
+
+    main .part2 .product .list_of_product li:nth-child(4) {
+        display: none;
+    }
+
+    main .part2 .product .list_of_product li:nth-child(5) {
+        display: none;
+    }
+
+    main .part2 .product .list_of_product li {
+        padding: 20px 10px;
+    }
+
+    main .part2 .product .list_of_product .product_image_desktop {
+        display: none;
+    }
+
+    main .part2 .product .list_of_product .product_image_mobile {
+        display: block;
+        width: 198px;
+        position: relative;
+        overflow: hidden;
+        margin: 0px auto;
+    }
+
+    main .part2 .product .list_of_product .product_image_mobile img {
+        display: block;
+        border-radius: 10px;
+    }
+
+    main .part2 .product .list_of_product .product_image_mobile:hover img {
+        filter: opacity(0.8);
+    }
+
+    main .part2 .product .list_of_product .product_image_mobile:hover .buy_now {
+        bottom: 0;
+    }
+
+    main .part2 .product .list_of_product .product_image_mobile .buy_now {
+        background-color: rgba(144, 4, 4, 0.887);
+        text-align: center;
+        padding: 10px 0px;
+        position: absolute;
+        width: 100%;
+        bottom: -40px;
+        transition: 0.3s ease-in-out;
+    }
+
+    main .part2 .product .list_of_product .product_image_mobile .buy_now a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    main .part2 .product .list_of_product li .product_infor {
+        padding: 10px 0px;
+    }
+
+    main .part2 .product .list_of_product li .product_infor .product_price {
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part2 .product .list_of_product li .product_infor .product_price .first_price {
+        text-decoration: line-through;
+        color: rgba(0, 0, 0, 0.40);
+        font-family: 'Satoshi-Bold';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 5px;
+    }
+
+
+
+    main .part2 .product .list_of_product li .product_infor .product_price .discount {
+        border-radius: 62px;
+        background-color: rgba(255, 51, 51, 0.10);
+        padding: 6px 14px;
+        color: #F33;
+        font-family: 'Satoshi-Medium';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+    }
+
+    main .part2 .product .list_of_product li .product_infor .product_name {
+        padding-bottom: 10px;
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part2 .product .list_of_product li .product_infor_desktop {
+        display: none;
+    }
+
+    main .part2 .product .list_of_product li .product_infor .rate {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    main .part2 .product .list_of_product li .product_infor .rate .number_rate {
+        color: #000;
+        font-family: 'Satoshi-Regular';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    main .part2 .product .view_all {
+        border-radius: 62px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        text-align: center;
+        padding: 16px 54px;
+        margin: 0px auto;
+        width: 300px;
+    }
+
+    main .part2 .product .view_all a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Satoshi-Medium';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    main .part3 {
+        background-color: #F0F0F0;
+        width: 340px;
+        height: 1085px;
+        margin: 50px auto;
+        border-radius: 20px;
+    }
+
+    main .part3 .title {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 50px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        width: 320px;
+        color: #000;
+        text-align: center;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    main .part3 .list_of_style_desktop {
+        display: none;
+    }
+
+    main .part3 .list_of_style_mobile {
+        display: block;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main .part3 .list_of_style_mobile p {
+        padding-top: 30px;
+        padding-left: 30px;
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    main .part3 .list_of_style_mobile .style1 {
+        background-image: url('/images/main_part3_mobile1.png');
+        border-radius: 20px;
+        width: 310px;
+        height: 190px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    main .part3 .list_of_style_mobile .style2 {
+        background-image: url('/images/main_part3_mobile2.png');
+        border-radius: 20px;
+        width: 310px;
+        height: 190px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    main .part3 .list_of_style_mobile .style3 {
+        background-image: url('/images/main_part3_mobile3.png');
+        border-radius: 20px;
+        width: 310px;
+        height: 190px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    main .part3 .list_of_style_mobile .style4 {
+        background-image: url('/images/main_part3_desktop:mobile4.png');
+        border-radius: 20px;
+        width: 310px;
+        height: 220px;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    main .part4 {
+        width: 360px;
+    }
+
+    main .part4 .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    main .part4 .title .arrow {
+        width: 100px;
+        padding-left: 30px;
+        padding-right: 10px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    main .part4 .title .arrow #arrow_left {
+        padding-right: 20px;
+    }
+
+    main .part4 .title h2 {
+        width: 230px;
+        color: #000;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        padding-left: 10px;
+    }
+
+    main .part4 .customer_comment2 {
+        display: none;
+    }
+
+    main .part4 .customer_comment3 {
+        display: none;
+    }
+
+    main .part4 .customer_comment1 {
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.10);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 25px;
+        margin-top: 20px;
+    }
+
+    main .part4 .customer_comment1 .name_of_customer {
+        display: flex;
+    }
+
+    main .part4 .customer_comment1 .name_of_customer p {
+        color: #000;
+        font-family: 'Satoshi-Bold';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px;
+    }
+
+    main .part4 .customer_comment1 .name_of_customer .verification {
+        padding-left: 10px;
+    }
+
+    main .part4 .customer_comment1 .comment {
+        color: rgba(0, 0, 0, 0.60);
+        font-family: 'Satoshi-Regular';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+*/
+    main .part1 h1 {
+        font-size: 30px;
+        padding: 10px 10px;
+    }
+
+    main .part2 {
+        display: block;
+    }
+
+    main .part2 .product {
+        margin: 0;
+        width: 335px;
+        margin-bottom: 20px;
+    }
+
+    main .part2 .product ul .line {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    main .part2 .product ul li .img_desktop {
+        display: none;
+    }
+
+    main .part2 .product ul li .img_mobile {
+        display: block;
+    }
+
+    main .part2 .product ul li .product_infor .name_of_product {
+        font-size: 15px;
+    }
+
+    main .part2 .product ul li .product_infor .price_of_product {
+        font-size: 15px;
+    }
+
+    main .part2 .product ul li .amount {
+        padding: 5px 5px;
+        text-align: center;
+        font-size: 15px;
+        width: 100px;
+        right: -6px;
+        top: 115px;
+    }
+
+    main .part2 .product ul li .trash {
+        font-size:20px;
+        top:7px;
+        right:-13px;
+    }
+    
+    main .part2 .checkout_information {
+        width: 335px;
+    }
+
+    main .part2 .checkout_information .price_information {
+        gap: 50px;
+    }
+
+    main .part2 .checkout_information .total_price .total {
+        gap: 50px;
+    }
+
+    main .part2 .checkout_information .total_price .checkout_btn .code {
+        width: 190px;
+        font-size: 14px;
+    }
+
+    main .part2 .checkout_information .total_price .checkout_btn i {
+        left: 15px;
+    }
+
+    main .part2 .checkout_information .total_price .checkout_btn button {
+        width: 70px;
+        font-size: 14px;
+    }
+
+    main .part2 .checkout_information .total_price .checkout_btn .gotocheckout {
+        width: 290px;
+    }
+
+    main .part2 .checkout_information .line {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 200px;
+    }
+
+    footer .part1 {
+        margin: 0 auto;
+        padding: 0 0;
+        width: 335px;
+        height: 360px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        left: 12px;
+        top: -130px;
+        display: block;
+    }
+
+    footer .part1 .title h2 {
+        width: 300px;
+    }
+
+    footer .part1 .title {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        color: #FFF;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+    }
+
+    footer .part1 .subscribe {
+        padding-left: 0px;
+    }
+
+    footer .part1 .subscribe p {
+        padding-top: 40px;
+    }
+
+    footer .part1 .subscribe .email_address {
+        position: relative;
+        text-align: center;
+    }
+
+    footer .part1 .subscribe .email_address i {
+        position: absolute;
+        top: 85px;
+        left: 19px;
+        color: rgba(0, 0, 0, 0.40);
+    }
+
+    footer .part1 .subscribe .email_address #user_icon {
+        position: absolute;
+        top: 15px;
+        left: 19px;
+        color: rgba(0, 0, 0, 0.40);
+    }
+
+    footer .part1 .subscribe .email {
+        width: 311px;
+        height: 42px;
+        border-radius: 62px;
+        background-color: #fff;
+        color: black;
+        padding-top: 13px;
+        padding-left: 30px;
+        margin-bottom: 30px;
+        font-family: 'Satoshi-Regular';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    footer .part1 .subscribe .button {
+        position: relative;
+        text-align: center;
+    }
+
+    footer .part1 .subscribe .button .subscribe_button {
+        width: 311px;
+        height: 42px;
+        border-radius: 62px;
+        background-color: #fff;
+        color: black;
+        padding: 13px 0px;
+        text-align: center;
+        font-family: 'Satoshi-Medium';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 0px;
+        transition: 0.3s ease;
+    }
+
+    footer .part1 .subscribe .button .subscribe_button:hover {
+        background-color: #ffffffb6;
+        scale: 1.05;
+    }
+
+    footer .part1 .subscribe .button .subscribe_button:active {
+        background-color: #ffffff;
+        scale: 1.0;
+    }
+
+    footer .part1 .subscribe .button i {
+        color: black;
+        top: 15px;
+        left: 45px;
+        z-index: 1;
+    }
+
+    footer .part1 .subscribe p {
+        text-align: center;
+    }
+
+    footer .part2 .information_contact {
+        width: 360px;
+        height: 990px;
+        background-color: #F0F0F0;
+        display: block;
+        margin-top: 10px;
+    }
+
+    footer .part2 .information {
+        padding-top: 50px;
+        padding-left: 13px;
+    }
+
+    footer .part2 .information h2 {
+        padding-bottom: 20px;
+        color: #000;
+        font-family: 'FONTSPRING DEMO - Integral CF';
+        font-size: 28.847px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    footer .part2 .information p {
+        padding-bottom: 20px;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: 'Satoshi-Regular';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    footer .part2 .information i {
+        padding: 0px 5px;
+        font-size: 20px;
+    }
+
+    footer .part2 .contact {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    footer .part2 .contact .contact_infor {
+        padding-left: 20px;
+        padding-bottom: 30px;
+        padding-right: 0px;
+    }
+
+    footer .part2 .contact .contact_infor p {
+        text-transform: uppercase;
+        color: #000;
+        font-family: 'Satoshi-Medium';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    footer .part2 .contact .contact_infor li {
+        padding: 10px 0px;
+        list-style: none;
+        width: 160px;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: 'Satoshi-Regular';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+    }
+
+    footer .part2 .line {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 340px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.10);
+    }
+
+    footer .part2 .copyright {
+        background-color: #F0F0F0;
+        height: 150px;
+    }
+
+    footer .part2 .copyright p {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.60);
+        font-family: 'Satoshi-Regular';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    footer .part2 .payment_method_mobile {
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .part2 .copyright .payment_method_desktop {
+        display: none;
+    }
+}

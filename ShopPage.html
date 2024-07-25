@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/ShopPage.css" type="text/css">
+    <script src="https://kit.fontawesome.com/0cadf57db9.js" crossorigin="anonymous"></script>
+    <title>Check out</title>
+</head>
+
+<body>
+    <header>
+        <div class="part1" id="top">
+            <p class="mobile">Sign up and get 20% off to your first order. <a href="">Sign Up Now</a></p>
+            <p class="desktop">Sign up and get 20% off to your first order. <a href="">Sign Up Now</a></p>
+        </div>
+        <div class="part2" id="part2_header">
+            <div class="toggle_menu">
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars" id="open" style="font-size:30px;"></i>
+                </div>
+                <div class="menu_mobile">
+                    <ul>
+                        <li><a href="shop.html">shop</a></li>
+                        <li><a href="on_sale.html">on sale</a></li>
+                        <li><a href="new_arrival.html">new arrivals</a></li>
+                        <li><a href="brand.hmtl">brands</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="name">
+                <a href="/HomePage.html" style="text-decoration: none;">
+                    <h1>shop.co</h1>
+                </a>
+            </div>
+            <div class="icon_mobile">
+                <div><i class="fa-solid fa-magnifying-glass" id="look_up_mobile"></i></div>
+                <a href="">
+                    <div><i class="fa-solid fa-cart-shopping"></i></div>
+                </a>
+                <a href="">
+                    <div><i class="fa-regular fa-user"></i></div>
+                </a>
+            </div>
+            <div class="navigation">
+                <ul class="menu">
+                    <li><a href="shop.html">shop</a></li>
+                    <li><a href="on_sale.html">on sale</a></li>
+                    <li><a href="new_arrival.html">new arrivals</a></li>
+                    <li><a href="brand.hmtl">brands</a></li>
+                </ul>
+            </div>
+            <div class="look_up">
+                <form action=""> <input type="text" placeholder="Search for products" class="find">
+                    <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                </form>
+
+            </div>
+            <div class="icon_desktop">
+                <div><a href="/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                <div><i class="fa-regular fa-user"></i></div>
+            </div>
+        </div>
+        <div class="part2_when_lookup" id="part2_when_lookup" style="display: none;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <form action="">
+                <input type="text" placeholder="Search for products">
+                <i class="fa-solid fa-xmark" id="close_lookup"></i>
+            </form>
+
+        </div>
+        <div class="line"></div>
+        <div class="part3">
+            <span> <a href="/HomePage.html">Home</a> > Casual <span>
+        </div>
+    </header>
+
+    <main>
+        <div class="part1">
+            <div class="heading_filters">
+                <span style="display:inline-block;">Filters</span>
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+            <div class="line"></div>
+            <div class="type_of_cloths">
+                <span>Clothes</span>
+                <!-- <i class="fa-solid fa-chevron-down" style="display:none;" id = "open_list"></i> -->
+                <i class="fa-solid fa-chevron-up" id="close_list"></i>
+
+                <ul id="list_of_cloths">
+                    <li>
+                        <div class="type">T-Shirts</div>
+                        <input type="checkbox" class="">
+                    </li>
+                    <li>
+                        <span class="type">Shorts</span>
+                        <input type="checkbox" class="">
+                    </li>
+                    <li>
+                        <div class="type">Shirts</div>
+                        <input type="checkbox" class="">
+                    </li>
+                    <li>
+                        <div class="type">Hoddie</div>
+                        <input type="checkbox" class="">
+                    </li>
+                    <li>
+                        <div class="type">Jeans</div>
+                        <input type="checkbox" class="">
+                    </li>
+                </ul>
+            </div>
+            <div class="line"></div>
+            <div class="adjust_price">
+                <span>Price: </span>
+                <p id="value_price" style="display: inline;">$100</p>
+                <i class="fa-solid fa-chevron-up" id="close_list2"></i>
+                <br><br>
+                <div class="set_price" id="set_price">
+                    <i class="fa-solid fa-minus" id="minus"></i>
+                    <input id="range_price" type="range" class="" min="0" max="1000" step="50" value="100">
+                    <i class="fa-solid fa-plus" id="plus"></i>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="adjust_color">
+                <span>Colors</span>
+                <i class="fa-solid fa-chevron-up" id="close_list3"></i>
+                <ul id="list_of_color" style="padding-top:20px;">
+                    <li>
+                        <div id="color1" class="color" style="background-color:#00c12b" ;></div>
+                    </li>
+                    <li>
+                        <div id="color2" class="color" style="background-color:#F50606" ;></div>
+                    <li>
+                        <div id="color3" class="color" style="background-color:#F5DD06" ;></div>
+                    </li>
+                    <li>
+                        <div id="color4" class="color" style="background-color:#F57906" ;></div>
+                    </li>
+                    <li>
+                        <div id="color5" class="color" style="background-color:#06CAF5" ;></div>
+                    </li>
+                    <li>
+                        <div id="color6" class="color" style="background-color:#063AF5" ;></div>
+                    </li>
+                    <li>
+                        <div id="color7" class="color" style="background-color:#7D06F5" ;></div>
+                    </li>
+                    <li>
+                        <div id="color8" class="color" style="background-color:#F506A4" ;></div>
+                    </li>
+                    <li>
+                        <div id="color9" class="color" style="background-color:#FFFFFF" ;></div>
+                    </li>
+                    <li>
+                        <div id="color10" class="color" style="background-color:#000000" ;></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="line"></div>
+            <div class="adjust_size">
+                <span>Size</span>
+                <i class="fa-solid fa-chevron-up" id="close_list4"></i>
+                <ul id="list_of_size" style="padding:20px;">
+                    <li>
+                        <div id="size1" class="size ">XX-Small</div>
+                    </li>
+
+                    <li>
+                        <div id="size2" class="size ">X-Small</div>
+                    </li>
+
+                    <li>
+                        <div id="size3" class="size ">Small</div>
+                    </li>
+
+                    <li>
+                        <div id="size4" class="size ">Medium</div>
+                    </li>
+
+                    <li>
+                        <div id="size5" class="size ">Large</div>
+                    </li>
+
+                    <li>
+                        <div id="size6" class="size ">X-Large</div>
+                    </li>
+
+                    <li>
+                        <div id="size7" class="size ">XX-Large</div>
+                    </li>
+
+                    <li>
+                        <div id="size8" class="size ">3X-Large</div>
+                    </li>
+
+                    <li>
+                        <div id="size9" class="size ">4X-Large</div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="line"></div>
+            <div class="type_of_styles">
+                <span>Dress Style</span>
+                <i class="fa-solid fa-chevron-up" id="close_list5"></i>
+                <ul id="list_of_style" style="padding-top:20px;">
+                    <li>
+                        <div class="style" id="style1">Casual </div>
+                        <input type="checkbox" class="">
+
+                    </li>
+                    <li>
+                        <div class="style" id="style2">Formal </div>
+                        <input type="checkbox" class="">
+                    </li>
+                    <li>
+                        <div class="style" id="style3">Party </div>
+                        <input type="checkbox" class="">
+
+                    </li>
+                    <li>
+                        <div class="style" id="style4">Gym </div>
+                        <input type="checkbox" class="">
+                    </li>
+                </ul>
+            </div>
+            <button class="apply_filter">Apply Filter</button>
+        </div>
+
+        <div class="part2">
+            <p>Casual</p>
+            <div class="product">
+                <ul>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img1_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Gradient Graphic T-shirt</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/half_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    3.5/5
+                                </span>
+                            </div>
+                            <div class="product_price">$145</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img2_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Polo with Tipping Details</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/half_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    4.5/5
+                                </span>
+                            </div>
+                            <div class="product_price">$180</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img3_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Black Striped T-shirt</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    5.0/5
+                                </span>
+                            </div>
+                            <span class="product_price">$120</span>
+                            <span class="first_price">$260</span>
+                            <span class="discount">-20%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img4_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Skinny Fit Jeans</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/half_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    3.5/5
+                                </span>
+                            </div>
+                            <span class="product_price">$240</span>
+                            <span class="first_price">$260</span>
+                            <span class="discount">-20%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img5_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Checkered Shirt</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/half_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    4.5/5
+                                </span>
+                            </div>
+                            <div class="product_price">$180</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img6_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Sleeve Striped T-shirt</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/half_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    4.5/5
+                                </span>
+                            </div>
+                            <span class="product_price">$130</span>
+                            <span class="first_price">$260</span>
+                            <span class="discount">-20%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img7_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Vertical Striped Shirt</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    5.0/5
+                                </span>
+                            </div>
+                            <span class="product_price">$212</span>
+                            <span class="first_price">$260</span>
+                            <span class="discount">-20%</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img8_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Courage Graphic T-shirt</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    4.0/5
+                                </span>
+                            </div>
+                            <div class="product_price">$145</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product_image_desktop">
+                            <a href=""> <img src="/images/shop_img9_desktop.png" alt=""></a>
+                            <div class="buy_now">
+                                <a href="">buy now</a>
+                            </div>
+                        </div>
+                        <div class="product_infor">
+                            <div class="product_name">Loose Fit Bermuda Shorts</div>
+                            <div class="rate">
+                                <span class="rate_star">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                    <img src="/images/full_star.png" alt="" class="">
+                                </span>
+                                <span class="number_rate">
+                                    3.0/5
+                                </span>
+                            </div>
+                            <div class="product_price">$120</div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </main>
+    <div style="text-align: center; margin-top:30px;">
+        <!-- <a href="#top" style="font-size:20px; text-decoration: none; color:blue;">Back to top</a> -->
+    </div>
+    <footer>
+        <div class="part1" id="part1_footer">
+            <div class="title">
+                <h2>stay up to date about our latest offers</h2>
+            </div>
+            <div class="subscribe" id="subscribe">
+                <!-- <form action="#" method="#"> -->
+                <div class="email_address" id="email_address">
+                    <i class="fa-regular fa-user" id="user_icon"></i>
+                    <input type="text" placeholder="Enter your name" class="email" id="name" required>
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email address" class="email" required>
+                </div>
+                <div class="button" id="button">
+                    <i class="fa-regular fa-bell"></i>
+                    <input type="submit" class="subscribe_button" id="subscribe_button" value="Subscribe to Newsletter">
+                </div>
+                <p id="thank_you"></p>
+                <!-- </form> -->
+            </div>
+        </div>
+
+        <div class="part2">
+            <div class="information_contact" id="information_contact">
+                <div class="information">
+                    <div class="name_of_shop">
+                        <h2>shop.co</h2>
+                        <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-threads"></i>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact_infor">
+                        <p>company</p>
+                        <ul>
+                            <li>About</li>
+                            <li>Features</li>
+                            <li>Works</li>
+                            <li>Career</li>
+                        </ul>
+                    </div>
+                    <div class="contact_infor">
+                        <p>help</p>
+                        <ul>
+                            <li>Customer Support</li>
+                            <li>Delivery Details</li>
+                            <li>Term & Conditions</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="contact_infor">
+                        <p>faq</p>
+                        <ul>
+                            <li>Account</li>
+                            <li>Manage Deliveries</li>
+                            <li>Orders</li>
+                            <li>Payment</li>
+                        </ul>
+                    </div>
+                    <div class="contact_infor">
+                        <p>resources</p>
+                        <ul>
+                            <li>Free eBook</li>
+                            <li>Development Tutorial</li>
+                            <li>How to - Blog</li>
+                            <li>Youtube Playlist</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="line"></div>
+                <p>Shop.co &copy; 2000-2023, All Rights Reserved</p>
+                <div class="payment_method_mobile">
+                    <img src="/images/method_1.png">
+                    <img src="/images/method_2.png">
+                    <img src="/images/method_3.png">
+                    <img src="/images/method_4.png">
+                    <img src="/images/method_5.png">
+                </div>
+                <div class="payment_method_desktop">
+                    <img src="/images/method_1.png">
+                    <img src="/images/method_2.png">
+                    <img src="/images/method_3.png">
+                    <img src="/images/method_4.png">
+                    <img src="/images/method_5.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="/checkout.js"></script>
+    <script src="/HomePage.js"></script> -->
+    <script src="/ShopPage.js"></script>
+</body>
+
+</html>
