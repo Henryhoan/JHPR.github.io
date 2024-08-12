@@ -220,6 +220,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 header .part1 {
     text-align: center;
     background-color: black;
@@ -227,7 +228,7 @@ header .part1 {
     padding: 15px;
     margin-bottom: 20px;
     width: 1440px;
-    display:none;
+    display: none;
 }
 
 
@@ -297,7 +298,7 @@ header .part2 .look_up .find {
     border-radius: 62px;
     padding: 14px 50px;
     width: 400px;
-  border:none;
+    border: none;
 }
 
 header .part2 .look_up i {
@@ -309,31 +310,33 @@ header .part2 .look_up i {
 header .part2 .icon_desktop {
     display: flex;
     font-size: 25px;
-    position:relative;
+    position: relative;
 }
+
 header .part2 .icon_desktop .sign_out {
-    position:absolute;
-    top:35px;
-    right:10px;
-    display:none;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    display: none;
 }
+
 header .part2 .icon_desktop .sign_out_display {
-    position:absolute;
-    top:35px;
-    right:10px;
+    position: absolute;
+    top: 35px;
+    right: 10px;
     background-color: white;
-    width:135px;
-    height:80px;
-    display:flex;
+    width: 135px;
+    height: 80px;
+    display: flex;
     z-index: 999;
     justify-content: center;
     align-items: center;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 header .part2 .icon_desktop i {
     padding: 0px 12px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 header .part2 .menu_mobile {
@@ -419,13 +422,14 @@ header .part4 .introduction_desktop {
     line-height: 22px;
 
 }
+
 header .part4 .button_desktop {
     background-color: black;
-    display:block;
+    display: block;
     color: white;
     text-decoration: none;
     margin-left: 100px;
-    width:210px;
+    width: 210px;
     text-align: center;
     padding: 16px 60px;
     border-radius: 62px;
@@ -434,14 +438,18 @@ header .part4 .button_desktop {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    transition:0.3s ease;
+    transition: 0.3s ease;
 }
+
 header .part4 .button_desktop:hover {
-    scale:1.05;
+    scale: 1.03;
+    background-color: #242323;
 }
+
 header .part4 .button_desktop:active {
-    scale:0.95;
+    scale: 1.0;
 }
+
 header .part4 .achievement_desktop {
     list-style: none;
     display: flex;
@@ -914,7 +922,7 @@ main .part3 .list_of_style_desktop .style3 {
 }
 
 main .part3 .list_of_style_desktop .style4 {
-    background-image: url('/images/main_part3_desktop:mobile4.png');
+    background-image: url('/images/main_part3_desktop_mobile4.png');
     background-repeat: no-repeat;
     width: 360px;
     height: 290px;
@@ -948,23 +956,26 @@ main .part4 .title .arrow {
 main .part4 .title .arrow #arrow_left {
     padding-right: 20px;
     cursor: pointer;
-    transition:0.3s ease;
 }
+
 main .part4 .title .arrow #arrow_left:hover {
-    scale:1.5;
+    scale: 1.2;
 }
+
 main .part4 .title .arrow #arrow_left:active {
-    scale:1.0;
+    scale: 1.0;
 }
+
 main .part4 .title .arrow #arrow_right {
     cursor: pointer;
-    transition:0.3s ease;
 }
+
 main .part4 .title .arrow #arrow_right:hover {
-    scale:1.5;
+    scale: 1.2;
 }
+
 main .part4 .title .arrow #arrow_right:active {
-    scale:1.0;
+    scale: 1.0;
 }
 
 main .part4 .customer_comment {
@@ -1048,15 +1059,17 @@ footer .part1 .subscribe {
     padding-left: 100px;
 }
 
-footer .part1 .subscribe .email_address{
+footer .part1 .subscribe .email_address {
     position: relative;
 }
+
 footer .part1 .subscribe .email_address i {
-    position:relative;
-    top:34px;
-    left:6px;
+    position: relative;
+    top: 34px;
+    left: 6px;
     color: rgba(0, 0, 0, 0.40);
 }
+
 footer .part1 .subscribe .email {
     border-radius: 62px;
     background-color: #fff;
@@ -1067,19 +1080,22 @@ footer .part1 .subscribe .email {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border:none;
+    border: none;
     width: 349px;
 }
+
 footer .part1 .subscribe .button {
-    position:relative;
+    position: relative;
 }
+
 footer .part1 .subscribe .button i {
-    position:absolute;
-    top:48px;
-    left:30px;
-    color:black;
-    z-index:1;
+    position: absolute;
+    top: 48px;
+    left: 30px;
+    color: black;
+    z-index: 1;
 }
+
 footer .part1 .subscribe .subscribe_button {
     margin-top: 30px;
     border-radius: 62px;
@@ -1094,17 +1110,18 @@ footer .part1 .subscribe .subscribe_button {
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
-    border:none;
+    border: none;
     transition: 0.3s ease;
 }
-footer .part1 .subscribe .subscribe_button:hover{
-    scale:1.1;
+
+footer .part1 .subscribe .subscribe_button:hover {
     background-color: #ffffffb6;
 }
-footer .part1 .subscribe .subscribe_button:active{
-    scale:1.0;
+
+footer .part1 .subscribe .subscribe_button:active {
     background-color: #ffffff;
 }
+
 footer .part1 .subscribe p {
     color: white;
     font-family: 'Satoshi-Regular';
@@ -1334,12 +1351,15 @@ footer .part2 .payment_method_mobile {
         display: flex;
         justify-content: space-between;
     }
+
     header .part2 .icon_mobile i {
-        color:black;
+        color: black;
     }
-    header .part2 .icon_mobile #look_up_mobile{
-     cursor: pointer;
+
+    header .part2 .icon_mobile #look_up_mobile {
+        cursor: pointer;
     }
+
     header .part2 .icon_mobile div {
         padding: 10px;
     }
@@ -1359,34 +1379,39 @@ footer .part2 .payment_method_mobile {
     header .part2 .icon_desktop {
         display: none;
     }
+
     header .part2_when_lookup {
         position: relative;
-        margin-bottom:10px;
+        margin-bottom: 10px;
     }
+
     header .part2_when_lookup i {
         position: absolute;
-        top:21px;
-        left:18px;
+        top: 21px;
+        left: 18px;
     }
+
     header .part2_when_lookup #close_lookup {
         position: absolute;
         top: 21px;
         left: 322px;
         cursor: pointer;
     }
-header .part2_when_lookup input {
-    color: black;
-    font-family: 'Satoshi-Regular';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #F0F0F0;
-    border-radius: 62px;
-    padding: 14px 50px;
-    width: 350px;
-    border: none;
-}
+
+    header .part2_when_lookup input {
+        color: black;
+        font-family: 'Satoshi-Regular';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #F0F0F0;
+        border-radius: 62px;
+        padding: 14px 50px;
+        width: 350px;
+        border: none;
+    }
+
     header .part3 {
         margin: 0 auto;
         display: block;
@@ -1438,11 +1463,13 @@ header .part2_when_lookup input {
         line-height: normal;
         transition: 0.3s ease;
     }
+
     header .part3 .button_mobile:hover {
-        scale:1.05;
+        scale: 1.05;
     }
+
     header .part3 .button_mobile:active {
-        scale:0.95;
+        scale: 0.95;
     }
 
     header .part3 .achievement_mobile {
@@ -1942,7 +1969,7 @@ header .part2_when_lookup input {
     }
 
     main .part3 .list_of_style_mobile .style4 {
-        background-image: url('/images/main_part3_desktop:mobile4.png');
+        background-image: url('/images/main_part3_desktop_mobile4.png');
         border-radius: 20px;
         width: 310px;
         height: 220px;
@@ -2067,25 +2094,30 @@ header .part2_when_lookup input {
     footer .part1 .subscribe {
         padding-left: 0px;
     }
+
     footer .part1 .subscribe p {
-        padding-top:40px;
+        padding-top: 40px;
     }
-    footer .part1 .subscribe .email_address{
-        position:relative;
+
+    footer .part1 .subscribe .email_address {
+        position: relative;
         text-align: center;
     }
+
     footer .part1 .subscribe .email_address i {
-        position:absolute;
-        top:85px;
-        left:19px;
+        position: absolute;
+        top: 85px;
+        left: 19px;
         color: rgba(0, 0, 0, 0.40);
     }
+
     footer .part1 .subscribe .email_address #user_icon {
-        position:absolute;
-        top:15px;
-        left:19px;
+        position: absolute;
+        top: 15px;
+        left: 19px;
         color: rgba(0, 0, 0, 0.40);
     }
+
     footer .part1 .subscribe .email {
         width: 311px;
         height: 42px;
@@ -2101,10 +2133,12 @@ header .part2_when_lookup input {
         font-weight: 400;
         line-height: normal;
     }
+
     footer .part1 .subscribe .button {
-        position:relative;
+        position: relative;
         text-align: center;
     }
+
     footer .part1 .subscribe .button .subscribe_button {
         width: 311px;
         height: 42px;
@@ -2118,26 +2152,29 @@ header .part2_when_lookup input {
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        margin-top:0px;
+        margin-top: 0px;
         transition: 0.3s ease;
     }
+
     footer .part1 .subscribe .button .subscribe_button:hover {
         background-color: #ffffffb6;
-        scale:1.05;
     }
+
     footer .part1 .subscribe .button .subscribe_button:active {
         background-color: #ffffff;
-        scale:1.0;
     }
+
     footer .part1 .subscribe .button i {
-        color:black;
-        top:15px;
-        left:45px;
-        z-index:1;
+        color: black;
+        top: 15px;
+        left: 45px;
+        z-index: 1;
     }
+
     footer .part1 .subscribe p {
         text-align: center;
     }
+
     footer .part2 .information_contact {
         width: 360px;
         height: 990px;
