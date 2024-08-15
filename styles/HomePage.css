@@ -521,7 +521,7 @@ main .part1 .product .list_of_product {
     display: flex;
     justify-content: space-around;
 }
-
+/* buy now */
 main .part1 .product .product_image_desktop {
     position: relative;
     overflow: hidden;
@@ -555,7 +555,7 @@ main .part1 .product .product_image_desktop .buy_now a {
     color: white;
     text-transform: uppercase;
 }
-
+/* buy now */
 main .part1 .product .list_of_product .product_infor .product_name {
     padding: 10px 0px;
     color: #000;
