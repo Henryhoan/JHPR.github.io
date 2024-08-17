@@ -8,7 +8,7 @@
     font-display: swap;
     font-style: normal;
 }
-
+ 
 @font-face {
     font-family: 'Satoshi-LightItalic';
     src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
@@ -377,7 +377,9 @@ main {
     align-items: flex-start;
     
 }
-
+main .filterIcon {
+    display: none;
+}
 main .part1 {
     width: 295px;
     padding: 20px 24px;
@@ -586,7 +588,8 @@ main .part1 .apply_filter {
     cursor: pointer;
 }
 main .part1 .apply_filter:hover {
-    scale:1.1;
+    scale:1.03;
+    background-color: #242323;
 }
 main .part1 .apply_filter:active {
     scale:1.0;
@@ -795,7 +798,6 @@ footer .part1 .subscribe .subscribe_button {
 }
 
 footer .part1 .subscribe .subscribe_button:hover {
-    scale: 1.1;
     background-color: #ffffffb6;
 }
 
@@ -883,14 +885,6 @@ footer .part2 .contact .contact_infor ul li {
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-}
-
-footer .part2 .line {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 1240px;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.10);
 }
 
 footer .part2 .copyright {
@@ -982,7 +976,6 @@ footer .part2 .payment_method_mobile {
         line-height: normal;
     }
 
-    /* CHNH SUA O DAY  */
     header .part2 .toggle_menu #open {
         display: block;
         cursor: pointer;
@@ -1003,6 +996,8 @@ footer .part2 .payment_method_mobile {
 
     header .part2 .toggle_menu .menu_mobile.open {
         height: 250px;
+        background-color: #F2F0F1;
+        z-index:99;
     }
 
     header .part2 .toggle_menu .menu_mobile ul {
@@ -1028,7 +1023,6 @@ footer .part2 .payment_method_mobile {
         text-transform: capitalize;
     }
 
-    /* TOI DAY  */
     header .part2 .icon_mobile {
         display: flex;
         justify-content: space-between;
@@ -1103,735 +1097,21 @@ footer .part2 .payment_method_mobile {
         padding: 10px;
         font-size: 15px;
     }
-
-    /* header .part3 {
-        margin: 0 auto;
-        display: block;
-        width: 360px;
-        height: 505px;
-        background-color: #F2F0F1;
-    }
-
-    header .part3 h1 {
-        padding: 30px 0;
-        margin-left: 16px;
-        width: 285px;
-        color: #000;
-        font-family: 'FONTSPRING DEMO - Integral CF';
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 34px;
-
-    }
-
-    header .part3 .introduction_mobile {
-        margin-left: 16px;
-        width: 328px;
-        color: rgba(0, 0, 0, 0.60);
-        font-family: 'Satoshi-Regular';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
-
-    }
-
-    header .part3 .button_mobile {
-        background-color: black;
-        color: white;
-        text-decoration: none;
-        padding: 16px 0px;
-        border-radius: 62px;
-        width: 200px;
-        display: block;
-        margin: 30px auto;
-        text-align: center;
-        color: #FFF;
-        font-family: 'Satoshi-Medium';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        transition: 0.3s ease;
-    }
-
-    header .part3 .button_mobile:hover {
-        scale: 1.05;
-    }
-
-    header .part3 .button_mobile:active {
-        scale: 0.95;
-    }
-
-    header .part3 .achievement_mobile {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    header .part3 .achievement_mobile li {
-        list-style: none;
-        padding: 20px 10px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    header .part3 .achievement_mobile li .number_of_achievement_mobile {
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    header .part3 .achievement_mobile li .description_of_achievement_mobile {
-        color: rgba(0, 0, 0, 0.60);
-        font-family: 'Satoshi-Regular';
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 22px;
-
-    } */
-
-    /* header .part4 {
-        background-image: url('/images/part3_image_mobile.png');
-        background-repeat: no-repeat;
-        width: 360px;
-        height: 448px;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    header .part4 .mobile {
-        display: inline;
-    }
-
-    header .part4 .desktop {
-        display: none;
-    }
-
-    header .part4 .star1_mobile {
-        position: absolute;
-        top: 35px;
-        left: 269px;
-
-    }
-
-    header .part4 .star2_mobile {
-        position: absolute;
-        top: 132px;
-        left: 23px;
-
-    }
-
-    header .part5 .name_of_brand {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        color: white;
-        font-size: 20px;
-    }
-
-    header .part5 .name_of_brand li {
-        list-style: none;
-        width: 33.3%;
-        text-align: center;
-        padding: 10px;
-    }
-
-    header .part5 .name_of_brand li:nth-child(4),
-    header .part5 .name_of_brand li:nth-child(5) {
-        width: 50%;
-    }
-
-    header .part5 {
-        background-color: black;
-        width: 360px;
-        margin: 0 auto;
-
-    } */
-
-    /* main .part1 .title {
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 10px;
-        color: #000;
-        text-align: center;
-        font-family: 'FONTSPRING DEMO - Integral CF';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part1 .product .list_of_product {
-        list-style: none;
-        display: block;
-        text-align: center;
-    }
-
-    main .part1 .product .list_of_product li {
-        padding: 20px 10px;
-    }
-
-    main .part1 .product .list_of_product li:nth-child(3) {
-        display: none;
-    }
-
-    main .part1 .product .list_of_product li:nth-child(4) {
-        display: none;
-    }
-
-    main .part1 .product .list_of_product li:nth-child(5) {
-        display: none;
-    }
-
-    main .part1 .product .list_of_product .product_image_desktop {
-        display: none;
-    }
-
-    main .part1 .product .list_of_product .product_image_mobile {
-        display: block;
-        width: 198px;
-        position: relative;
-        overflow: hidden;
-        margin: 0px auto;
-    }
-
-    main .part1 .product .list_of_product .product_image_mobile img {
-        display: block;
-        border-radius: 10px;
-    }
-
-    main .part1 .product .list_of_product .product_image_mobile:hover img {
-        filter: opacity(0.8);
-    }
-
-    main .part1 .product .list_of_product .product_image_mobile:hover .buy_now {
-        bottom: 0;
-    }
-
-    main .part1 .product .list_of_product .product_image_mobile .buy_now {
-        background-color: rgba(144, 4, 4, 0.887);
-        text-align: center;
-        padding: 10px 0px;
-        position: absolute;
-        width: 100%;
-        bottom: -40px;
-        transition: 0.3s ease-in-out;
-    }
-
-    main .part1 .product .list_of_product .product_image_mobile .buy_now a {
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-    }
-
-    main .part1 .product .list_of_product li .product_infor {
-        padding: 10px 0px;
-    }
-
-    main .part1 .product .list_of_product li .product_infor .product_name {
-        padding-bottom: 10px;
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part1 .product .list_of_product li .product_infor .product_price {
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part1 .product .list_of_product li .product_infor .product_price .first_price {
-        text-decoration: line-through;
-        color: rgba(0, 0, 0, 0.40);
-        font-family: 'Satoshi-Bold';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding: 0 5px;
-    }
-
-    main .part1 .product .list_of_product li .product_infor .product_price .discount {
-        border-radius: 62px;
-        background-color: rgba(255, 51, 51, 0.10);
-        padding: 6px 14px;
-        color: #F33;
-        font-family: 'Satoshi-Medium';
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-
-    }
-
-    main .part1 .product .list_of_product li .product_infor_desktop {
-        display: none;
-    }
-
-    main .part1 .product .list_of_product li .product_infor .rate {
-        padding-top: 5px;
-        padding-bottom: 10px;
-    }
-
-    main .part1 .product .list_of_product li .product_infor .rate .number_rate {
-        color: #000;
-        font-family: 'Satoshi-Regular';
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    main .part1 .product .view_all {
-        border-radius: 62px;
-        border: 1px solid rgba(0, 0, 0, 0.10);
-        text-align: center;
-        padding: 16px 54px;
-        margin: 0px auto;
-        width: 300px;
-    }
-
-    main .part1 .product .view_all a {
-        text-decoration: none;
-        color: black;
-        font-family: 'Satoshi-Medium';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    main .line {
-        margin: 0 auto;
-        margin-top: 30px;
-        width: 340px;
-        height: 1px;
-        background-color: rgba(0, 0, 0, 0.10);
-    }
-
-    main .part2 .title {
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 10px;
-        color: #000;
-        text-align: center;
-        font-family: 'FONTSPRING DEMO - Integral CF';
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part2 .product .list_of_product {
-        list-style: none;
-        display: block;
-        text-align: center;
-    }
-
-    main .part2 .product .list_of_product li:nth-child(3) {
-        display: none;
-    }
-
-    main .part2 .product .list_of_product li:nth-child(4) {
-        display: none;
-    }
-
-    main .part2 .product .list_of_product li:nth-child(5) {
-        display: none;
-    }
-
-    main .part2 .product .list_of_product li {
-        padding: 20px 10px;
-    }
-
-    main .part2 .product .list_of_product .product_image_desktop {
-        display: none;
-    }
-
-    main .part2 .product .list_of_product .product_image_mobile {
-        display: block;
-        width: 198px;
-        position: relative;
-        overflow: hidden;
-        margin: 0px auto;
-    }
-
-    main .part2 .product .list_of_product .product_image_mobile img {
-        display: block;
-        border-radius: 10px;
-    }
-
-    main .part2 .product .list_of_product .product_image_mobile:hover img {
-        filter: opacity(0.8);
-    }
-
-    main .part2 .product .list_of_product .product_image_mobile:hover .buy_now {
-        bottom: 0;
-    }
-
-    main .part2 .product .list_of_product .product_image_mobile .buy_now {
-        background-color: rgba(144, 4, 4, 0.887);
-        text-align: center;
-        padding: 10px 0px;
-        position: absolute;
-        width: 100%;
-        bottom: -40px;
-        transition: 0.3s ease-in-out;
-    }
-
-    main .part2 .product .list_of_product .product_image_mobile .buy_now a {
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-    }
-
-    main .part2 .product .list_of_product li .product_infor {
-        padding: 10px 0px;
-    }
-
-    main .part2 .product .list_of_product li .product_infor .product_price {
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part2 .product .list_of_product li .product_infor .product_price .first_price {
-        text-decoration: line-through;
-        color: rgba(0, 0, 0, 0.40);
-        font-family: 'Satoshi-Bold';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        padding: 0 5px;
-    }
-
-
-
-    main .part2 .product .list_of_product li .product_infor .product_price .discount {
-        border-radius: 62px;
-        background-color: rgba(255, 51, 51, 0.10);
-        padding: 6px 14px;
-        color: #F33;
-        font-family: 'Satoshi-Medium';
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-
-    }
-
-    main .part2 .product .list_of_product li .product_infor .product_name {
-        padding-bottom: 10px;
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part2 .product .list_of_product li .product_infor_desktop {
-        display: none;
-    }
-
-    main .part2 .product .list_of_product li .product_infor .rate {
-        padding-top: 5px;
-        padding-bottom: 10px;
-    }
-
-    main .part2 .product .list_of_product li .product_infor .rate .number_rate {
-        color: #000;
-        font-family: 'Satoshi-Regular';
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-    }
-
-    main .part2 .product .view_all {
-        border-radius: 62px;
-        border: 1px solid rgba(0, 0, 0, 0.10);
-        text-align: center;
-        padding: 16px 54px;
-        margin: 0px auto;
-        width: 300px;
-    }
-
-    main .part2 .product .view_all a {
-        text-decoration: none;
-        color: black;
-        font-family: 'Satoshi-Medium';
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    main .part3 {
-        background-color: #F0F0F0;
-        width: 340px;
-        height: 1085px;
-        margin: 50px auto;
-        border-radius: 20px;
-    }
-
-    main .part3 .title {
-        text-align: center;
-        margin: 0 auto;
-        padding-top: 50px;
-        margin-bottom: 40px;
-        text-transform: uppercase;
-        width: 320px;
-        color: #000;
-        text-align: center;
-        font-family: 'FONTSPRING DEMO - Integral CF';
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 50px;
-    }
-
-    main .part3 .list_of_style_desktop {
-        display: none;
-    }
-
-    main .part3 .list_of_style_mobile {
-        display: block;
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    main .part3 .list_of_style_mobile p {
-        padding-top: 30px;
-        padding-left: 30px;
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-
-    main .part3 .list_of_style_mobile .style1 {
-        background-image: url('/images/main_part3_mobile1.png');
-        border-radius: 20px;
-        width: 310px;
-        height: 190px;
-        background-repeat: no-repeat;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-
-    main .part3 .list_of_style_mobile .style2 {
-        background-image: url('/images/main_part3_mobile2.png');
-        border-radius: 20px;
-        width: 310px;
-        height: 190px;
-        background-repeat: no-repeat;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-
-    main .part3 .list_of_style_mobile .style3 {
-        background-image: url('/images/main_part3_mobile3.png');
-        border-radius: 20px;
-        width: 310px;
-        height: 190px;
-        background-repeat: no-repeat;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-
-    main .part3 .list_of_style_mobile .style4 {
-        background-image: url('/images/main_part3_desktop:mobile4.png');
-        border-radius: 20px;
-        width: 310px;
-        height: 220px;
-        background-repeat: no-repeat;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-
-    main .part4 {
-        width: 360px;
-    }
-
-    main .part4 .title {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 0px;
-    }
-
-    main .part4 .title .arrow {
-        width: 100px;
-        padding-left: 30px;
-        padding-right: 10px;
-        padding-top: 20px;
-        font-size: 20px;
-    }
-
-    main .part4 .title .arrow #arrow_left {
-        padding-right: 20px;
-    }
-
-    main .part4 .title h2 {
-        width: 230px;
-        color: #000;
-        font-family: 'FONTSPRING DEMO - Integral CF';
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 36px;
-        padding-left: 10px;
-    }
-
-    main .part4 .customer_comment2 {
-        display: none;
-    }
-
-    main .part4 .customer_comment3 {
-        display: none;
-    }
-
-    main .part4 .customer_comment1 {
-        border-radius: 20px;
-        border: 1px solid rgba(0, 0, 0, 0.10);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 20px 25px;
-        margin-top: 20px;
-    }
-
-    main .part4 .customer_comment1 .name_of_customer {
-        display: flex;
-    }
-
-    main .part4 .customer_comment1 .name_of_customer p {
-        color: #000;
-        font-family: 'Satoshi-Bold';
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 22px;
-    }
-
-    main .part4 .customer_comment1 .name_of_customer .verification {
-        padding-left: 10px;
-    }
-
-    main .part4 .customer_comment1 .comment {
-        color: rgba(0, 0, 0, 0.60);
-        font-family: 'Satoshi-Regular';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 20px;
-    }
-*/
-    main .part1 h1 {
-        font-size: 30px;
-        padding: 10px 10px;
-    }
-
-    main .part2 {
-        display: block;
-    }
-
-    main .part2 .product {
-        margin: 0;
-        width: 335px;
-        margin-bottom: 20px;
-    }
-
-    main .part2 .product ul .line {
-        width: 300px;
-        margin: 0 auto;
-    }
-
-    main .part2 .product ul li .img_desktop {
-        display: none;
-    }
-
-    main .part2 .product ul li .img_mobile {
-        display: block;
-    }
-
-    main .part2 .product ul li .product_infor .name_of_product {
-        font-size: 15px;
-    }
-
-    main .part2 .product ul li .product_infor .price_of_product {
-        font-size: 15px;
-    }
-
-    main .part2 .product ul li .amount {
-        padding: 5px 5px;
-        text-align: center;
-        font-size: 15px;
-        width: 100px;
-        right: -6px;
-        top: 115px;
-    }
-
-    main .part2 .product ul li .trash {
-        font-size: 20px;
-        top: 7px;
-        right: -13px;
-    }
-
-    main .part2 .checkout_information {
-        width: 335px;
-    }
-
-    main .part2 .checkout_information .price_information {
-        gap: 50px;
-    }
-
-    main .part2 .checkout_information .total_price .total {
-        gap: 50px;
-    }
-
-    main .part2 .checkout_information .total_price .checkout_btn .code {
-        width: 190px;
-        font-size: 14px;
-    }
-
-    main .part2 .checkout_information .total_price .checkout_btn i {
-        left: 15px;
-    }
-
-    main .part2 .checkout_information .total_price .checkout_btn button {
-        width: 70px;
-        font-size: 14px;
-    }
-
-    main .part2 .checkout_information .total_price .checkout_btn .gotocheckout {
-        width: 290px;
-    }
-
-    main .part2 .checkout_information .line {
-        width: 300px;
-        margin: 0 auto;
+    main {
+        position:relative;
+    }
+
+    main .filterIcon {
+        display:block;
+    }
+    
+    main .part1 {
+        position:absolute;
+        background-color: #FFF;
+        z-index: 999;
+        top: 2px;
+        left: -111px;
+        display:none;
     }
 
     footer {
@@ -2029,15 +1309,6 @@ footer .part2 .payment_method_mobile {
         font-weight: 400;
         line-height: 16px;
     }
-
-    footer .part2 .line {
-        margin: 0 auto;
-        margin-bottom: 10px;
-        width: 340px;
-        height: 1px;
-        background-color: rgba(0, 0, 0, 0.10);
-    }
-
     footer .part2 .copyright {
         background-color: #F0F0F0;
         height: 150px;
@@ -2051,6 +1322,7 @@ footer .part2 .payment_method_mobile {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        padding-top: 50px;
     }
 
     footer .part2 .payment_method_mobile {

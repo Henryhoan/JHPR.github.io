@@ -20,7 +20,20 @@ minus.onclick = function () {
     value_price.innerHTML = `$` + range_price.value;
 
 }
+const filterIcon = document.getElementById("filterIcon")
 
+filterIcon.onclick = function(){
+    if (filterIcon.classList.contains("fa-sliders")) {
+        filterIcon.classList.remove("fa-sliders");
+        filterIcon.classList.add("fa-x");
+        document.getElementById("part1").style.display="block";
+    }
+    else {
+        filterIcon.classList.remove("fa-x");
+        filterIcon.classList.add("fa-sliders");
+        document.getElementById("part1").style.display="none";
+    }
+}
 const color1 = document.getElementById("color1");
 
 color1.onclick = function () {
